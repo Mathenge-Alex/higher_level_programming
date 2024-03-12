@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-float = round(number, 2)
-print(f"Float: {float}")
+print(f"Float: {number:.2f}")
