@@ -4,6 +4,6 @@ import hidden_4
 if __name__ == '__main__':
     prog_names = dir(hidden_4)
 
-    for j in range(len(prog_names)):
-        if prog_names[j][:2] != '__':
-            print(prog_names[j])
+    for i in range(len(prog_names)):
+        if prog_names[i][:2] != '__':
+            print(prog_names[i])
