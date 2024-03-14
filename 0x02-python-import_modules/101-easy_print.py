@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-__import__('pyiscool')
+__builtins__.__dict__['s'+'tdout'].write("#pythoniscool\n")
+
