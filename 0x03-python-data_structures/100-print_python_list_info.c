@@ -4,11 +4,15 @@
 #include <stdio.h>
 #include <python3.10/object.h>
 
-/*
-* void print_python_list_info - Function prints some
-* basic info about Python lists
-* Return - Returns nothing
-*/
+/**
+ * print_python_list_info - Function prints information
+ * about a Python list object
+ * @p: Pointer to the Python list object
+ *
+ * Function prints various information about
+ * a Python list object, including its length,
+ * allocated memory, and elements.
+ */
 
 void print_python_list_info(PyObject *p)
 {
@@ -27,5 +31,4 @@ void print_python_list_info(PyObject *p)
 		printf("Element %d: %s\n", j, item->ob_type->tp_name);
 	}
 
-	return;
 }
