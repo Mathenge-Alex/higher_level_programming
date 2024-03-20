@@ -1,8 +1,7 @@
-#include "/usr/include/python3.4/Python.h"
-#include "/usr/include/python3.4/listobject.h"
-#include "/usr/include/python3.4/object.h"
 #include <stdio.h>
-
+#include <Python.h>
+#include <listobject.h>
+#include <object.h>
 /**
  * print_python_list_info - Function prints information
  * about a Python list object
